@@ -4,7 +4,9 @@ YouTube Downloader
 
 A small server that serves YouTube videos and audio using `youtube-dl`. Because I am tired of all the fishy websites out there.
 
-**Note**: There currently is no nice frontend just a plain HTTP API.
+**Things to note**: 
+* There currently is no nice frontend just a plain HTTP API.
+* To run this application `youtube-dl` hast to be installed somewhere `$PATH`
 
 Endpoints
 ---------
