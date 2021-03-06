@@ -6,7 +6,7 @@ A small server that serves YouTube videos and audio using `youtube-dl`. Because 
 
 **Things to note**: 
 * There currently is no nice frontend just a plain HTTP API.
-* To run this application `youtube-dl` hast to be installed somewhere `$PATH`
+* To run this application `youtube-dl` has to be installed somewhere `$PATH`
 
 Endpoints
 ---------
