@@ -18,7 +18,7 @@ func DownloadVideo(filename, format, id string) (string, error) {
 	if err := runCommand(filename, format, id, args...); err != nil {
 		return "", err
 	}
-	return (DownloadLocation + filename), nil
+	return DownloadLocation + filename, nil
 }
 
 // DownloadAudio downloads a youtube video with the given id and extracts the audio using youtube-dl.
@@ -29,7 +29,7 @@ func DownloadAudio(filename, format, id string) (string, error) {
 	if err := runCommand(filename, format, id, args...); err != nil {
 		return "", err
 	}
-	return (DownloadLocation + filename), nil
+	return DownloadLocation + filename, nil
 }
 
 func runCommand(filename, format, id string, extraArgs ...string) error {
